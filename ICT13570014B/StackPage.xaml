@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ICT13570014B.StackPage"
+    BackgroundColor="#FFF0F5">
+    <ScrollView
+        Orientation="Vertical">
+        <StackLayout
+            Orientation="Vertical">
+            <Button
+                Text="Button"
+                BackgroundColor="#E6E6FA"
+                HorizontalOptions="Center"
+                WidthRequest="100" />
+            <Button
+                Text="Button"
+                BackgroundColor="Silver"
+                HorizontalOptions="Start"
+                WidthRequest="100" />
+            <Button
+                Text="Button"
+                BackgroundColor="Yellow"
+                HorizontalOptions="End"
+                WidthRequest="100" />
+            <ScrollView
+                Orientation="Horizontal">
+                <StackLayout
+                    Orientation="Horizontal"
+                    BackgroundColor="#ADD8E6">
+                    <Button
+                        Text="Button"
+                        BackgroundColor="#D2B48C"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="#F5DEB3"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="#F4A460"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="#FFA500"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="#F08080"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="#FF6347"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="#FF6347"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        BackgroundColor="#FF6347"
+                        WidthRequest="100" />
+                </StackLayout>
+            </ScrollView>
+
+            <Entry
+                Placeholder="Input text here"/>
+
+            <Entry
+                Placeholder="Input text here"/>
+
+            <Entry
+                Placeholder="Input text here"/>
+
+            <Entry
+                Placeholder="Input text here"/>
+
+            <Entry
+                Placeholder="Input text here"/>
+
+            <Entry
+                Placeholder="Input text here"/>
+
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+            <Entry
+                Placeholder="Input text here"/>
+           
+      
+            
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

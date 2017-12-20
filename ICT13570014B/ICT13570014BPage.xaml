@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ICT13570014B"
+    x:Class="ICT13570014B.ICT13570014BPage"
+    BackgroundColor="White"
+    Padding="2,10,2,10">
+
+    <ScrollView
+        Orientation="Horizontal">
+    <StackLayout
+        BackgroundColor="Silver"
+        Orientation="Vertical">
+        <Label
+            Text="Hello world"
+            HorizontalTextAlignment="Center"
+            BackgroundColor="White"
+            Margin="90,20,90,20"
+            TextColor="Black"
+            LineBreakMode="WordWrap"
+            x:Name="CamelCaseLabel" />
+        <Label
+            Text="jeeraporn"
+            Margin="90,2,90,2"
+            HorizontalTextAlignment="Center"
+            BackgroundColor="White"
+            x:Name="CamelCaseLabel2" />
+        <Entry
+            Placeholder="ชื่อสกุล"
+            Margin="40,2,40,2"
+            Keyboard="Text"
+            x:Name="firstNameEntry" />
+        <Button
+            Text="OK"
+            Margin="100,2,100,2"
+            BackgroundColor="Lime"
+            TextColor="Black"
+            x:Name="okButton" />
+        <DatePicker />
+        <Picker
+            x:Name="genderPicker"
+            Title="กรุณาเลือกเพศ" />
+        <Label
+            x:Name="valueLabel" />
+        <Slider
+            Maximum="100"
+            Minimum="0"
+            Value="50"
+            x:Name="mySlider" />
+        <Stepper
+            Maximum="10"
+            Minimum="0"
+            Value="0"
+            Increment="1"
+            x:Name="myStepper" />
+        <Switch 
+        IsToggled="true"/>
+         <Image
+        Source="111111.jpg"
+        HeightRequest="100"/>
+        <WebView
+        Source="https://www.google.com/"
+        HeightRequest="150"/>
+        <TimePicker/>
+    </StackLayout>
+      </ScrollView>
+</ContentPage>
